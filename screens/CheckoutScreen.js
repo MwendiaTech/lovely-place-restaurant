@@ -106,7 +106,7 @@ const CheckoutScreen = ({ route, navigation }) => {
       <Image source={getImage(item.image)} style={styles.orderItemImage} />
       <View style={styles.orderItemInfo}>
         <Text style={styles.itemName}>{item.name}</Text>
-        <Text style={styles.itemPrice}>${item.price.toFixed(2)}</Text>
+        <Text style={styles.itemPrice}>£{item.price.toFixed(2)}</Text>
       </View>
     </View>
   );
@@ -129,7 +129,7 @@ const CheckoutScreen = ({ route, navigation }) => {
           />
 
           <View style={styles.totalContainer}>
-            <Text style={styles.totalText}>Total: ${completedOrder.total.toFixed(2)}</Text>
+            <Text style={styles.totalText}>Total: £{completedOrder.total.toFixed(2)}</Text>
           </View>
 
           <View style={styles.customerDetails}>
@@ -158,7 +158,7 @@ const CheckoutScreen = ({ route, navigation }) => {
           />
 
           <View style={styles.totalContainer}>
-            <Text style={styles.totalText}>Total: ${calculateTotal().toFixed(2)}</Text>
+            <Text style={styles.totalText}>Total: £{calculateTotal().toFixed(2)}</Text>
           </View>
 
           <View style={styles.formContainer}>

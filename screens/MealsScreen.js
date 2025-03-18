@@ -57,7 +57,7 @@ const MealsScreen = ({ navigation }) => {
         <View style={styles.mealInfo}>
           <Text style={styles.mealName}>{item.name}</Text>
           <Text style={styles.mealDescription}>{item.description}</Text>
-          <Text style={styles.mealPrice}>${item.price.toFixed(2)}</Text>
+          <Text style={styles.mealPrice}>£{item.price.toFixed(2)}</Text>
         </View>
         <TouchableOpacity
           style={[styles.selectButton, isSelected && styles.selected]}
@@ -106,13 +106,6 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
   },
-  // headerImage: { 
-  //   width: '100%', 
-  //   height: 200, 
-  //   resizeMode: 'cover', 
-  //   marginBottom: 20 
-  // },
-  
   headerImage: {
     width: '100%',
     height: '100%',

@@ -69,7 +69,7 @@ const OrderScreen = ({ route, navigation }) => {
       <Image source={getImage(item.image)} style={styles.orderItemImage} />
       <View style={styles.orderItemInfo}>
         <Text style={styles.itemName}>{item.name}</Text>
-        <Text style={styles.itemPrice}>${item.price.toFixed(2)}</Text>
+        <Text style={styles.itemPrice}>£{item.price.toFixed(2)}</Text>
       </View>
     </View>
   );
@@ -93,7 +93,7 @@ const OrderScreen = ({ route, navigation }) => {
         )}
         keyExtractor={(meal) => meal.id.toString()}
       />
-      <Text style={styles.totalText}>Total: ${item.total.toFixed(2)}</Text>
+      <Text style={styles.totalText}>Total: £{item.total.toFixed(2)}</Text>
       <TouchableOpacity
         onPress={() => handleDeleteOrder(item.id)}
         style={styles.deleteButton}
@@ -117,7 +117,7 @@ const OrderScreen = ({ route, navigation }) => {
           />
           <View style={styles.totalContainer}>
             <Text style={styles.totalText}>
-              Total: ${calculateTotal().toFixed(2)}
+              Total: £{calculateTotal().toFixed(2)}
             </Text>
           </View>
           <Button title="Proceed to Checkout" onPress={proceedToCheckout} />
