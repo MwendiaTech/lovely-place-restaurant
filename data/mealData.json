@@ -1,0 +1,92 @@
+[
+  {
+      "id": 1,
+      "name": "Margherita Pizza",
+      "description": "Classic pizza with tomato sauce, fresh mozzarella, and basil",
+      "price": 8.99,
+      "category": "Pizza",
+      "dietary": ["Vegetarian", "Vegan"],
+      "image": "pizza-margherita.png"
+  },
+  {
+      "id": 2,
+      "name": "Spaghetti Carbonara",
+      "description": "Rich pasta with eggs, pancetta, Pecorino Romano, and black pepper",
+      "price": 12.99,
+      "category": "Pasta",
+      "dietary": ["Contains Pork"],
+      "image": "spaghetti-carbonara.png"
+  },
+  {
+      "id": 3,
+      "name": "Grilled Salmon",
+      "description": "Fresh salmon fillet with lemon butter sauce",
+      "price": 15.49,
+      "category": "Main Course",
+      "dietary": ["Pescatarian"],
+      "image": "grilled-salmon.png"
+  },
+  {
+      "id": 4,
+      "name": "Beef Tacos",
+      "description": "Soft tortillas filled with seasoned beef, onions, and cilantro",
+      "price": 11.99,
+      "category": "Main Course",
+      "dietary": [],
+      "image": "beef-tacos.png"
+  },
+  {
+      "id": 5,
+      "name": "Caesar Salad",
+      "description": "Romaine lettuce with croutons, Parmesan, and Caesar dressing",
+      "price": 8.99,
+      "category": "Salad",
+      "dietary": ["Dairy"],
+      "image": "caesar-salad.png"
+  },
+  {
+      "id": 6,
+      "name": "Mozzarella Sticks",
+      "description": "Fried mozzarella with marinara sauce",
+      "price": 6.49,
+      "category": "Appetizer",
+      "dietary": ["Dairy"],
+      "image": "mozzarella-sticks.png"
+  },
+  {
+      "id": 7,
+      "name": "Mushroom Swiss Burger",
+      "description": "Beef patty with sautéed mushrooms and Swiss cheese",
+      "price": 12.49,
+      "category": "Burger",
+      "dietary": ["Dairy"],
+      "image": "mushroom-swiss-burger.png"
+  },
+  {
+      "id": 8,
+      "name": "Cheesecake",
+      "description": "Classic New York style cheesecake",
+      "price": 6.49,
+      "category": "Dessert",
+      "dietary": ["Dairy"],
+      "image": "cheesecake.png"
+  },
+  {
+      "id": 9,
+      "name": "Smoothie",
+      "description": "Blended fruit drink",
+      "price": 4.49,
+      "category": "Beverage",
+      "dietary": ["Vegetarian", "Vegan"],
+      "image": "smoothie.png"
+  },
+  {
+      "id": 10,
+      "name": "Margarita",
+      "description": "Classic tequila cocktail",
+      "price": 8.99,
+      "category": "Cocktail",
+      "dietary": [],
+      "image": "margarita.png"
+  }
+]
